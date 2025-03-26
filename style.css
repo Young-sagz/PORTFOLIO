@@ -1,0 +1,241 @@
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-brand {
+    font-size: 25px;
+    color: #5a2912;
+}
+.navbar a{
+    font-size: 20px;
+    color: black;
+    margin-left: 10px;
+}
+.hero{
+    background-color: #0A0C0C;
+}
+.profile-pic{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    right: 5px;
+    bottom: 9%;
+}
+.my-portfolio{
+    font-size: 290px;
+    color: #d8c1b2;
+    font-family: "Squada One", sans-serif
+   
+}
+.lead{
+    color: #d48f6a;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px; 
+       
+}
+.one {    
+    background-color: #d8c1b2;
+    color: #5a2912;
+    width: 55%;
+    font-weight: bold;
+    font-size: 35px;
+    
+}
+.about{
+    background-color: #f4f3ef;
+}
+.about-head{
+    color: #814c33;
+    font-size: 85px;
+    font-weight: bold;
+    font-family: "Squada One", sans-serif
+}
+.about-body{
+    color: #1b1f23;
+    font-size: 30px;
+    font-weight: 600;
+}
+.skills{
+    background-color: #f4f3ef;
+}
+.skills-head{
+    color: #814c33;
+    font-size: 85px;
+    font-weight: bold;
+    font-family: "Squada One", sans-serif;
+}
+.skills img{
+    float: left;
+    display: block;
+}
+
+.skills p{
+    float: right;
+    font-size: 25px;
+}
+.skills h3{
+    font-family: "Squada One", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color: #9c644a;
+}
+.cv-btn{
+    background-color: #9c644a;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #9c644a;
+    border-radius: 25px;
+    height: 60px;
+}
+.cv-btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.cv-btn:hover{
+    color: #5a2912;
+    background-color: #b36a42;
+}
+.skill-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    background-color: #f0efea;
+}
+.project-head{
+    color: #814c33;
+    font-size: 85px;
+    font-weight: bold;
+    font-family: "Squada One", sans-serif
+}
+.project img{
+    float: left;
+    display: block;
+}
+
+.project p{
+    float: right;
+    font-size: 25px;
+}
+.project h3{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #9c644a;
+    font-family: "Squada One", sans-serif;
+}
+
+.contact{
+    font-size: 30px;
+}
+.contact  img{
+    height: 50px;
+    width: 50px;
+    background-color: #d1cfc5;
+    border-radius: 50%;
+    padding: 7px;
+}
+.connect{
+    border-right: 3px solid black;
+    font-size: 80px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: #9c644a;
+    font-family: "Squada One", sans-serif
+}
+.socials img{
+    margin: 5px;
+    height: 70px;
+    width: 70px;
+    background-color: white;
+
+}
+
+.footer{
+    color: #5a2912;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+@media (max-width:996px) {
+    .profile-pic{
+        height: 250px;
+        width: 250px;
+        position: relative;
+        left: 57%;
+    }
+    .my-portfolio{
+        font-size: 120px;
+        color: #d8c1b2;
+        text-align: center;
+       
+    }
+    .lead{
+        color: #d48f6a;
+        text-align: center;
+        font-weight: bold;
+        font-size: 30px; 
+           
+    }
+    .one {    
+        width: 45%;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .about-head, .skills-head, .project-head{
+        font-size: 60px;
+    }
+    .about-body{
+        font-size: 25px;
+    }
+    .skills img{
+        float: none;
+        position: relative;
+        left: 45%;
+    }
+    .skills h3{
+        text-align: center;
+    }
+    
+    .skills p{
+        float: none;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .project p{
+        font-size: 25px;
+        text-align: center;
+    }
+    .cv-btn{
+        font-size: 25px;
+        font-weight: bold;
+        height: 60px;
+        margin-top: 40px;
+    }
+    .contact{
+        font-size: 25px;
+        
+    }
+    .contact  img{
+        height: 50px;
+        width: 50px;
+    }
+    .connect{
+        border-right: 3px solid transparent;
+        font-size: 40px;
+    }
+    .socials img{
+        height: 55px;
+        width: 55px;
+         
+    }
+    
+}
